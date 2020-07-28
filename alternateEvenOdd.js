@@ -29,7 +29,7 @@ A.length % 2 == 0
 var sortArrayByParityII = function(A) {
 let even = A.filter(x=>x%2===0)
 let odd = A.filter(x=>x%2!==0)
-let B = []; 
+let B = [];
     for (let i = 0; i <even.length ; i++) {
 B.push(even[i]);
 B.push(odd[i]);
