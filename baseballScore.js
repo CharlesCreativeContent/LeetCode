@@ -10,7 +10,7 @@ Integer (one round's score): Directly represents the number of points you get in
 Each round's operation is permanent and could have an impact on the round before and the round after.
 
 You need to return the sum of the points you could get in all the rounds.
-
+ 
 Example 1:
 Input: ["5","2","C","D","+"]
 Output: 30
