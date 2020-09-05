@@ -34,4 +34,4 @@ for (let i = 0; i < A.length ; i++) {
 if (A.filter(x=>x===A[i]).length!==1){return A[i];
                                       break;}
 }
-};
+}; 
