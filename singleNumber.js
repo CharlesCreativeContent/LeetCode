@@ -31,3 +31,4 @@ var singleNumber = function(nums) {
 if(nums.indexOf(nums[i])===nums.lastIndexOf(nums[i])){return nums[i]}
 } 
 };
+ 
