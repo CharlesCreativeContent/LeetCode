@@ -32,6 +32,6 @@ Constraints:
  * @return {number}
  */
 var subtractProductAndSum = function(n) {
-let A = [...n.toString().split('').map(Number)]
+let A = [...`${n}`].map(Number)
 return A.reduce((a, b) => a * b, 1) - A.reduce((a, b) => a + b, 0) 
 };
